@@ -47,9 +47,7 @@ library
         , Network.Google.Auth.ServiceAccount
         , Network.Google.Compute.Metadata
         , Network.Google.Env
-
-    other-modules:
-          Network.Google.Internal.Auth
+        , Network.Google.Internal.Auth
         , Network.Google.Internal.Body
         , Network.Google.Internal.HTTP
         , Network.Google.Internal.Logger

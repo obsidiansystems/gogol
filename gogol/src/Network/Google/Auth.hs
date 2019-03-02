@@ -36,7 +36,7 @@ module Network.Google.Auth
     , authorize
 
     -- ** Thread-safe Storage
-    , Store
+    , Store (..)
     , initStore
     , retrieveAuthFromStore
 
